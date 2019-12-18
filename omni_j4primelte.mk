@@ -39,5 +39,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 PRODUCT_DEVICE := j4primelte
 PRODUCT_NAME := omni_j4primelte
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Samsung Galaxy j4+
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MODEL := Galaxy J4+
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_CHARACTERISTICS := phone
+PRODUCT_RELEASE_NAME := Samsung Galaxy J4+
