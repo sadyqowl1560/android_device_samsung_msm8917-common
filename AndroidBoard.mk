@@ -14,5 +14,8 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_j4primelte-userdebug
-add_lunch_combo omni_j4primelte-eng
+LOCAL_PATH := $(call my-dir)
+
+ifneq ($(filter j4primelte,$(TARGET_DEVICE)),)
+include $(call all-makefiles-under,$(LOCAL_PATH))
+endif
