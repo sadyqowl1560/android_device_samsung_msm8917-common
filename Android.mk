@@ -15,7 +15,6 @@
 #
 
 LOCAL_PATH := $(call my-dir)
-
-ifeq ($(TARGET_DEVICE),j4primelte)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
+ifneq ($(filter j4primelte j4corelte j6primelte,$(TARGET_DEVICE)),)
+include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
