@@ -7,3 +7,6 @@ service recovery /sbin/recovery
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+
+on boot
+    chmod 755 /sbin/busybox
