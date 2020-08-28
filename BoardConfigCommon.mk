@@ -74,3 +74,5 @@ TW_NO_REBOOT_BOOTLOADER := true
 TW_CRYPTO_USE_SYSTEM_VOLD := true
 TW_INCLUDE_NTFS_3G := true
 TW_USE_TOOLBOX := true
+TW_DEVICE_VERSION := sadyqowl1560
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone11/temp"
